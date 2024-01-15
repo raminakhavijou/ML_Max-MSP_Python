@@ -1,4 +1,4 @@
-# ML_Max-MSP_Python
+# ML_Max/MSP_Python
 
 By Ramin Akhavijou
 
