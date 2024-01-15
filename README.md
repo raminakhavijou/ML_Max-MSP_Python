@@ -9,10 +9,11 @@ The patch serves an educational purpose, and the accompanying code is designed t
 
 I've separated the patches to enhance understanding and facilitate code modification for users. To execute the patches and receive data in Python, follow these steps:
 
-1) Open the Max patch named "UDP_MAX_ML" to send the intended data (by default, it sends sensor data or key slider notes).
+1) Open the Max patch named "UDP_MAX_ML" to send the intended data (by default, it sends sensor data or kslider notes).
 2) Open the Python script "UDP_MAX_receiver" and run the script.
 3) Interact with the Max patch; all data generated during interaction will be sent to Python and saved in a file.
 4) Run the Python script "ML_Pattern5" to initiate machine learning processing on the received data from Max. The processed data will be saved in a new file.
 5) Run the Python script "UDP-send" to send the updated data back to Max/MSP.
+   
 Now, you have a new dataset in Max/MSP, comprising your interacted data along with the added predicted data.
    
