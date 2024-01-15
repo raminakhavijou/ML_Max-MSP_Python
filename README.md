@@ -1,7 +1,9 @@
 # ML_Max-MSP_Python
 
 By Ramin Akhavijou
+
 ramin.akhavijou@gmail.com
+
 www.akhavijou.com
 
 This patch facilitates the transfer of data between Max/MSP and Python for machine learning purposes using UDP. The UDP protocol is utilized to send and receive data in both Python and Max/MSP. Given Python's extensive machine learning libraries, the data is sent to Python for processing and subsequently returned to Max/MSP for result generation or further processing.
